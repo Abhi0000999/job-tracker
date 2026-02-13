@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KodNest Premium Build System — Job Notification Tracker</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Design System CSS -->
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+  <!-- APP NAVIGATION -->
+  <nav class="app-nav">
+    <div class="nav-container">
+      <div class="nav-brand">Job Notification Tracker</div>
+
+      <ul class="main-nav">
+        <li><a href="#/dashboard" class="nav-link">Dashboard</a></li>
+        <li><a href="#/saved" class="nav-link">Saved</a></li>
+        <li><a href="#/digest" class="nav-link">Digest</a></li>
+        <li><a href="#/settings" class="nav-link">Settings</a></li>
+        <li><a href="#/proof" class="nav-link">Proof</a></li>
+      </ul>
+
+      <button class="hamburger" aria-label="Toggle menu">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- APP CONTAINER (Routes render here) -->
+  <div id="app-container">
+    <!-- Page content will be rendered here by the router -->
+  </div>
+
+  <!-- Router Script -->
+  <script src="app.js"></script>
+
+</body>
+
+</html>
